@@ -1,0 +1,197 @@
+.add-skillset-container {
+  margin: 20px;
+  /* background-color: whitesmoke; */
+}
+
+.add-skillset-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-skillset-form .form-group {
+  margin-right: 15px;
+}
+
+.add-skillset-form .form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+}
+
+.add-skillset-form .form-group select, 
+.add-skillset-form .form-group input {
+  width: 200px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.add-skillset-form .form-group#new-category-group input {
+  width: 150px;
+}
+
+.add-skillset-form .btn-add {
+  padding: 7px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  height: 40px;
+  vertical-align: middle;
+  margin-left: 27px;
+  margin-top: 2px;
+  width: 8rem;
+}
+
+.add-skillset-form .btn-add:hover {
+  background-color: #0056b3;
+}
+
+.category-list h2 {
+  margin-bottom: 15px;
+}
+
+.category-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.category-list th, 
+.category-list td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.category-list th {
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.category-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-list ul li {
+  padding: 5px 0;
+}
+
+
+
+
+
+
+.skill-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* .skill-row:hover {
+  background-color: #e0e0e0;
+} */
+
+.skill-text {
+  flex: 1;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.skill-input {
+  flex: 1;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
+
+
+
+
+.editing-input {
+  border: 1px solid #999;
+  padding: 4px;
+  border-radius: 3px;
+  width: 3px;
+}
+
+.editing-input:focus {
+  outline: none;
+  border-color: #66afe9;
+}
+
+/* .skill-text:hover {
+  text-decoration: underline;
+  color: #007bff;
+} */
+
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+
+
+
+
+
+.header-container {
+  /* background: #092041; */
+  background: #ffffff;
+  color: #53d4b8; /* Light turquoise */
+  padding: 14px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border-color: #999;
+  border: 1px solid rgb(232, 222, 222);
+}
+
+.header-container h1 {
+  font-size: 25px;
+  margin: 0;
+  font-weight: bold;
+  text-align: justify;
+ 
+}
+
+.header-container h2 {
+  font-size: 30px;
+  margin: 5px 0 0 0;
+  font-weight: normal;
+}
+
+
+
+
+
+.master-row td {
+  padding: 10px; /* Adjust padding as needed */
+}
